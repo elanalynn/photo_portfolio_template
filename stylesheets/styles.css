@@ -1,0 +1,15 @@
+body {
+  background: url('../assets/images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pa-navbar {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.pa-input, .pa-btn {
+  border-radius: 0;
+}

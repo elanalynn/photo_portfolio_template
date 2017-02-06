@@ -1,0 +1,49 @@
+{
+  "name": "photo_portfolio_template",
+  "version": "1.0.0",
+  "description": "photo portfolio template",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "server": "node index.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elanalynn/photo_portfolio_template.git"
+  },
+  "author": "Elana Kopelevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elanalynn/photo_portfolio_template/issues"
+  },
+  "homepage": "https://github.com/elanalynn/photo_portfolio_template#readme",
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "~2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/router": "~3.2.0",
+    "@angular/upgrade": "~2.2.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "~2.4.1",
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.40",
+    "zone.js": "~0.6.26"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "concurrently": "2.2.0",
+    "typescript": "~2.0.3",
+    "@types/core-js": "~0.9.34",
+    "@types/node": "~6.0.46"
+  }
+}
